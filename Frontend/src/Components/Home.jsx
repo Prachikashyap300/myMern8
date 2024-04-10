@@ -7,7 +7,7 @@ const Home = () => {
     <div>
         <header className='head'>
           {/* <img src={logo} alt="logo" /> */}
-          <h1>Hakuna Matata</h1>
+          <h1>Hakunaaa Matata</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, incidunt?</p>
         </header>
     </div>
