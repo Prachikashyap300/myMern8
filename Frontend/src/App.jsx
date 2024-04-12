@@ -9,6 +9,7 @@ import Signup from './Components/Signup'
 import Login from './Components/Login'
 import Eventhandling from './Components/Eventhandling'
 import Navbar from './Components/Navbar'
+import Eh from './Components/Eh'
 const App = () => {
   return (
     <div>
@@ -21,7 +22,8 @@ const App = () => {
         <Route path='/Signup' element={<Signup/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/EventHandling' element={<Eventhandling/>} />
-      </Routes>
+        <Route path='/Eh' element={<Eh/>}/>   
+        </Routes>
       </BrowserRouter>
       </SnackbarProvider>
     </div>

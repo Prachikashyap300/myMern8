@@ -42,6 +42,11 @@ const Navbar = () => {
                   Eventhandling
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Eh">
+                  Han
+                </Link>
+              </li>
             
             </ul>
           </div>

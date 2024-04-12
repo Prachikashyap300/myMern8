@@ -11,7 +11,7 @@ app.use(cors({
 
 // middleware
 app.use(express.json());
-app.use('/user', userRouter);            
+app.use('/User', userRouter);            
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
