@@ -25,4 +25,15 @@ router.post('/authenticate', (req,res) => {
     });
 })
 
+//to get the data 
+router.post('/getall', (req,res) => {
+    Model.find({})
+    .then((result) => {
+        res.json(result);
+    }).catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
+    });
+})
+
 module.exports = router;

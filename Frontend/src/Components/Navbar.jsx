@@ -47,6 +47,11 @@ const Navbar = () => {
                   Han
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ManageUser">
+                  MU
+                </Link>
+              </li>
             
             </ul>
           </div>

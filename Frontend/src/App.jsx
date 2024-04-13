@@ -10,6 +10,7 @@ import Login from './Components/Login'
 import Eventhandling from './Components/Eventhandling'
 import Navbar from './Components/Navbar'
 import Eh from './Components/Eh'
+import ManageUsers from './Components/ManageUsers'
 const App = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/Login' element={<Login/>} />
         <Route path='/EventHandling' element={<Eventhandling/>} />
         <Route path='/Eh' element={<Eh/>}/>   
+        <Route path='/ManageUser' element={<ManageUsers/>}/>
         </Routes>
       </BrowserRouter>
       </SnackbarProvider>
