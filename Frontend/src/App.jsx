@@ -11,6 +11,7 @@ import Eventhandling from './Components/Eventhandling'
 import Navbar from './Components/Navbar'
 import Eh from './Components/Eh'
 import ManageUsers from './Components/ManageUsers'
+import AddProduct from './Components/AddProduct'
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/EventHandling' element={<Eventhandling/>} />
         <Route path='/Eh' element={<Eh/>}/>   
         <Route path='/ManageUser' element={<ManageUsers/>}/>
+        <Route path='/AddProduct' element={<AddProduct/>}/>
         </Routes>
       </BrowserRouter>
       </SnackbarProvider>

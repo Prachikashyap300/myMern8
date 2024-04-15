@@ -27,7 +27,7 @@ const Signup = () => {
     },
     onSubmit: async(values, action) => {
       console.log(values);
-      const res = await fetch('http://localhost:4000/User/add',{
+      const res = await fetch('http://localhost:4000/user/add',{
         method: 'POST',
         body: JSON.stringify(values),
         headers: {
