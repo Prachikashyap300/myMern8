@@ -1,8 +1,8 @@
 const {Schema,model}=require('../connection')
 const productSchema = new Schema({
-    name:String,
-    cateogory:String,
-    price:String,
-    description: String
+    pname:String,
+    pcateogory:String,
+    pprice:String,
+    pdescription: String
 });
 module.exports = model('product',productSchema)

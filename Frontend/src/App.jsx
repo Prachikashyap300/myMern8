@@ -12,6 +12,7 @@ import Navbar from './Components/Navbar'
 import Eh from './Components/Eh'
 import ManageUsers from './Components/ManageUsers'
 import AddProduct from './Components/AddProduct'
+import ProductListing from './Components/ProductListing'
 const App = () => {
   return (
     <div>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/Eh' element={<Eh/>}/>   
         <Route path='/ManageUser' element={<ManageUsers/>}/>
         <Route path='/AddProduct' element={<AddProduct/>}/>
+        <Route path='/ProductListing' element={<ProductListing/>}/>
         </Routes>
       </BrowserRouter>
       </SnackbarProvider>
